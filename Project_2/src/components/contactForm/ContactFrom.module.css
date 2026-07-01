@@ -1,0 +1,39 @@
+.flexDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.formDiv{
+    width: 40%;
+   
+}
+.imgDiv{    
+    width: 50%;
+    height: auto;
+}
+.imgDiv img{
+    width: 75%
+}
+
+.formLabelHandle{
+    display: flex;
+    flex-direction: column;
+    min-height: 40px;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 20px;
+}
+
+.formLabelHandle input ,textarea {
+    padding-left: 10px;
+    color: gray;
+}
+.formLabelHandle label{
+    position: absolute;
+    font-size: 14px;
+    left: 10px;
+    top: -12px;
+    background-color: white;
+    padding:0 5px;
+
+}
